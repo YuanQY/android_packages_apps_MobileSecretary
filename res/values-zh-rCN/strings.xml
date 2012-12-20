@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机防火墙</string>
+    <string name="phonenumber">请输入手机号码</string>
+    <string name="start_on_boot_success">成功开机启动</string>
+    <string name="ok">确定</string>
+    <string name="close">关闭</string>
+    <string name="cancel">取消</string>
+
+    <!-- Main Activity -->
+    <string name="button_call">电话拦截</string>
+    <string name="button_message">短信拦截</string>
+    <string name="button_sensitive">敏感词库</string>
+    <string name="button_whitelist">放行名单</string>
+    <string name="button_settings">防护设置</string>
+    <string name="button_exit">退出防护</string>
+    <string name="dialog_confirm_title">提示</string>
+    <string name="dialog_confirm_exit_message">你确定要退出吗，拦截服务将在后台运行?</string>
+    <string name="query_phone_number_title">号码查询</string>
+    <string name="network_error">网络连接错误.</string>
+
+    <!-- Call Activity -->
+    <string name="interception_record">拦截记录</string>
+    <string name="black_list">黑名单</string>
+    <string name="add_contacts">加入联系人</string>
+    <string name="add_contacts_success">成功添加.</string>
+    <string name="conditions_empty">姓名或号码不能为空.</string>
+    <string name="interception_record_message_format" formatted="false">垃圾号码%S\n来电时间:%S </string>
+    <string name="reply">回复</string>
+    <string name="call">拨打</string>
+    <string name="delete">删除</string>
+    <string name="clear">清空</string>
+    <string name="add">添加</string>
+    <string name="black_list_title">添加黑名单</string>
+    <string name="input_error">输入错误.</string>
+    <string name="duplicate_phone_number">号码%S已存在.</string>
+
+    <!-- Message Activity -->
+    <string name="interception_record_sms_format" formatted="false">垃圾号码%S\n来电时间:%S\n\n短信内容:\n%S</string>
+    <string name="revert">恢复</string>
+
+    <!-- Sensitive Activity -->
+    <string name="mutiple_select">多选</string>
+    <string name="added_sensitive_word">已添加的敏感词</string>
+    <string name="add_sensitive_word_title">添加新敏感词</string>
+    <string name="add_sensitive_word_notice">请填写不多于5个汉字或5个字母，数字的组合</string>
+
+    <!-- Set Activity -->
+    <string name="protect_title">密码保护设置</string>
+    <string name="input_time_same_error">不能输入一样的时间.</string>
+    <string name="intercept_sms">拦截短信</string>
+    <string name="intercept_tel">拦截电话</string>
+    <string name="intercept_both">拦截短信和电话</string>
+    <string name="intercept_content_title">请选择拦截内容</string>
+    <string name="night_scrambling">夜间免扰模式</string>
+    <string name="start_time">起始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="start_on_boot">开机启动</string>
+    <string name="sensitive_settings">敏感词设置</string>
+    <string name="start_on_boot_summary">开机启动更方便</string>
+    <string name="sensitive_settings_summary">自定义您的敏感词库</string>
+
+    <!-- BroadcastTool -->
+    <string name="intercept_call_information" formatted="false">%S于%S打电话给您.</string>
+    <string name="intercept_sms_information" formatted="false">%S于%S发送，内容如下:\n%S</string>
+    <string name="intercept_notice" formatted="false">设置信息之拒收短信：勾选</string>
+    <string name="phone_number_format">请输入11位手机号码</string>
+    <string name="constact">联系人</string>
+    <string name="original_phone">----原始号码----</string>
+    <string name="target_phone">----处理之后----</string>
+    <string name="black_number_message" formatted="false"><string name="black_list">黑名单</string>该号码在黑名单中，必须拦截\n\n%S\n\n%S\n\n%S</string>
+    <string name="black_work_message" formatted="false">该短信含敏感词，必须拦截\n\n%S\n\n%S\n\n%S</string>
+
+    <!-- set call record name -->
+    <string name="input_contact_name">请输入姓名</string>
+    <string name="input_contact_number">请输入号码</string>
+    <!-- Whitelist Activity -->
+    <string name="white_list_title">添加白名单</string>
+    <string name="white_list">白名单</string>
+</resources>
